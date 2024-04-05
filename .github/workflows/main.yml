@@ -1,0 +1,32 @@
+name: Update Feeds
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+
+
+jobs:
+  run_script:
+    name: Run Python Script and Commit Changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9' 
+      - name: Install dependencies
+        run: pip install feedparser beautifulsoup4 requests
+
+      - name: Run Python Script
+        run: python parser.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add new_feed.xml
+          git commit -m "Automatic update - $(date -u +'%Y-%m-%d %H:%M:%S')"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/Zufriedenheit/P2P-Forum.git HEAD:main
