@@ -30,4 +30,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add new_feed.xml
           git commit -m "Automatic update - $(date -u +'%Y-%m-%d %H:%M:%S')"
-          git push https://${{ secrets.PAT_TOKEN }}@github.com/Zufriedenheit/P2P-Forum.git HEAD:main
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/Zufriedenheit/P2P-Forum.git HEAD:main
