@@ -35,7 +35,7 @@ def extract_postbody(link):
                     next_postbody_element = postbody_element.find_next(class_='postbody')
                     heading_quotetable_before_postbody_element = next_postbody_element.find_previous('span', class_='genmed').get_text().strip()
                     quote_tabledata_before_postbody_element = next_postbody_element.find_previous('td', class_='quote').get_text().strip()
-                    postbody = "<b>" + heading_quotetable_before_postbody_element + "</b>\n" + "<i>" + quote_tabledata_before_postbody_element + "</i>\n" + next_postbody_element.get_text().strip()
+                    postbody = "<b>" + heading_quotetable_before_postbody_element + "</b><br>\n" + "<i>" + quote_tabledata_before_postbody_element + "</i><br>\n" + next_postbody_element.get_text().strip()
                 #Remove signature from end of post
                 last_index = postbody.rfind('_________________')
                 if last_index != -1:
