@@ -22,7 +22,7 @@ jobs:
         run: pip install feedparser beautifulsoup4 requests
 
       - name: Run Python Script
-        run: python parser.py
+        run: python my_parser.py
 
       - name: Commit and Push Changes
         run: |-
