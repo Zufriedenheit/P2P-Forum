@@ -17,7 +17,7 @@ def extract_postbody(link):
         
         # Define the session and set the session cookie
         session = requests.Session()
-        session.cookies.set("p2pkredites_sid", "35a5645ca54ea781bb764d15f9a203f4")  # Replace COOKIE_NAME and COOKIE_VALUE with your session cookie
+        session.cookies.set("p2pkredites_sid", "6bbf6d038ea0dd4c1d9e12c9cfea3a83")  # Replace COOKIE_NAME and COOKIE_VALUE with your session cookie
         
         # Make the request with the session
         response = session.get(post_url)
