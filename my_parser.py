@@ -1,8 +1,26 @@
+import os
 import feedparser
 from bs4 import BeautifulSoup
 import requests
 from urllib.parse import urlparse
 import re
+
+# Login credentials (from environment variables)
+LOGIN_URL = "https://www.p2p-kredite.com/diskussion/login.php"
+USERNAME = os.environ.get("FORUM_USERNAME")
+PASSWORD = os.environ.get("FORUM_PASSWORD")
+
+# Create a session
+session = requests.Session()
+
+# Send the login request
+login_data = {
+    "username": USERNAME,
+    "password": PASSWORD,
+    "redirect": "",
+    "login": "Login"
+}
+session.post(LOGIN_URL, data=login_data)
 
 # Parse the RSS feed
 feed_url = "https://www.p2p-kredite.com/diskussion/sm/forum"
@@ -14,10 +32,6 @@ def extract_postbody(link):
     post_id = url_components.fragment
     if post_id:
         post_url = f"{url_components.scheme}://{url_components.netloc}{url_components.path}"
-        
-        # Define the session and set the session cookie
-        session = requests.Session()
-        session.cookies.set("p2pkredites_sid", "6bbf6d038ea0dd4c1d9e12c9cfea3a83")  # Replace COOKIE_NAME and COOKIE_VALUE with your session cookie
         
         # Make the request with the session
         response = session.get(post_url)
@@ -44,7 +58,6 @@ def extract_postbody(link):
                 postbody = re.sub(r'\n{2,}', '\n', postbody)
                 return "<![CDATA[" + postbody + "]]>"
     return "Postbody not found"
-
 
 # Function to update feed items with postbody content
 def update_feed_with_postbody(feed):
