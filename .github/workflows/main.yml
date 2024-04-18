@@ -3,8 +3,7 @@ name: Update Feeds
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 * * * *'
-
+    - cron: '6 */2 * * *'
 
 jobs:
   run_script:
@@ -17,9 +16,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9' 
+          python-version: '3.9'
+
       - name: Install dependencies
-        run: pip install feedparser beautifulsoup4 requests
+        run: |
+          pip install feedparser beautifulsoup4
+          pip install playwright
+          playwright install firefox
 
       - name: Run Python Script
         env:
