@@ -1,76 +1,41 @@
 import os
 import feedparser
 from bs4 import BeautifulSoup
-import requests
 from urllib.parse import urlparse
 import re
+from playwright.sync_api import sync_playwright
 
 # Login credentials (from environment variables)
 LOGIN_URL = "https://www.p2p-kredite.com/diskussion/login.php"
 USERNAME = os.environ.get("FORUM_USERNAME")
 PASSWORD = os.environ.get("FORUM_PASSWORD")
 
-# Create a session
-session = requests.Session()
-
-# Send the login request
-login_data = {
-    "username": USERNAME,
-    "password": PASSWORD,
-    "redirect": "",
-    "login": "Login"
-}
-session.post(LOGIN_URL, data=login_data)
-
-# Parse the RSS feed
-feed_url = "https://www.p2p-kredite.com/diskussion/sm/forum"
-feed = feedparser.parse(feed_url)
-
-# Function to extract postbody from HTML page
-def extract_postbody(link):
+def extract_postbody(my_page, link):
     url_components = urlparse(link)
     post_id = url_components.fragment
     if post_id:
         post_url = f"{url_components.scheme}://{url_components.netloc}{url_components.path}"
-        
-        # Make the request with the session
-        response = session.get(post_url)
-        
-        # Check if the request was successful
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')
-            post_link = soup.find_all('a', {'name': post_id})
-            if post_link:
-                postbody_element = post_link[0].find_next(class_='postbody')
-                if postbody_element.get_text():
-                    postbody = postbody_element.get_text()
-                    #return postbody
-                else:
-                    next_postbody_element = postbody_element.find_next(class_='postbody')
-                    heading_quotetable_before_postbody_element = next_postbody_element.find_previous('span', class_='genmed').get_text().strip()
-                    quote_tabledata_before_postbody_element = next_postbody_element.find_previous('td', class_='quote').get_text().strip()
-                    postbody = "<b>" + heading_quotetable_before_postbody_element + "</b><br>\n" + "<i>" + quote_tabledata_before_postbody_element + "</i><br>\n" + next_postbody_element.get_text().strip()
-                #Remove signature from end of post
-                last_index = postbody.rfind('_________________')
-                if last_index != -1:
-                    postbody = postbody[:last_index]
-                #Reduce multiple line breaks to single line breaks
-                postbody = re.sub(r'\n{2,}', '\n', postbody)
-                return "<![CDATA[" + postbody + "]]>"
+        my_page.goto(post_url)
+        soup = BeautifulSoup(my_page.content(), 'html.parser')
+        post_link = soup.find_all('a', {'name': post_id})
+        if post_link:
+            postbody_element = post_link[0].find_next(class_='postbody')
+            if postbody_element.get_text():
+                postbody = postbody_element.get_text()
+            else:
+                next_postbody_element = postbody_element.find_next(class_='postbody')
+                heading_quotetable_before_postbody_element = next_postbody_element.find_previous('span', class_='genmed').get_text().strip()
+                quote_tabledata_before_postbody_element = next_postbody_element.find_previous('td', class_='quote').get_text().strip()
+                postbody = "<b>" + heading_quotetable_before_postbody_element + "</b><br>\n" + "<i>" + quote_tabledata_before_postbody_element + "</i><br>\n" + next_postbody_element.get_text().strip()
+            #Remove signature from end of post
+            last_index = postbody.rfind('_________________')
+            if last_index != -1:
+                postbody = postbody[:last_index]
+            #Reduce multiple line breaks to single line breaks
+            postbody = re.sub(r'\n{2,}', '\n', postbody)
+            return "<![CDATA[" + postbody + "]]>"
     return "Postbody not found"
 
-# Function to update feed items with postbody content
-def update_feed_with_postbody(feed):
-    for item in feed.entries:
-        link = item.link
-        postbody = extract_postbody(link)
-        item['postbody'] = postbody
-    return feed
-
-# Update feed with postbody content
-updated_feed = update_feed_with_postbody(feed)
-
-# Function to generate new feed XML with postbody content
 def generate_new_feed_xml(feed):
     new_feed = '<?xml version="1.0"?>\n<rss version="2.0">\n<channel>\n<title>P2P Forum</title>\n<link>https://www.p2p-kredite.com/diskussion/</link>\n<description>All Posts in the P2P Forum</description>\n'
     for item in feed.entries:
@@ -84,9 +49,22 @@ def generate_new_feed_xml(feed):
     new_feed += '</channel>\n</rss>'
     return new_feed
 
-# Generate new feed XML with postbody content
-new_feed_xml = generate_new_feed_xml(updated_feed)
-
-# Save new feed XML to a file
-with open('new_feed.xml', 'w', encoding='utf-8') as f:
-    f.write(new_feed_xml)
+with sync_playwright() as p:
+    # Log into the forum
+    browser = p.firefox.launch()
+    page = browser.new_page()
+    page.goto(LOGIN_URL)
+    page.fill('input[name="username"]', USERNAME)
+    page.fill('input[name="password"]', PASSWORD)
+    page.click('input[name="login"]')
+    # Parse original RSS feed
+    feed_url = "https://www.p2p-kredite.com/diskussion/sm/forum"
+    feed = feedparser.parse(feed_url)
+    # Add postbody to feed
+    for item in feed.entries:
+        postbody = extract_postbody(page, item.link)
+        item['postbody'] = postbody
+    new_feed_xml = generate_new_feed_xml(feed)
+    # Save new feed XML to a file
+    with open('new_feed.xml', 'w', encoding='utf-8') as f:
+        f.write(new_feed_xml)
