@@ -22,6 +22,7 @@ def extract_postbody(my_page, link):
             post_td = post_link[0].find_next('td')
             while post_td:
                 if post_td.find(class_='postbody'):
+                    post_td.find("tr").decompose()
                     return "<![CDATA[" + str(post_td) + "]]>"
                 post_td = post_td.find_next('td')
             # #Remove signature from end of post
