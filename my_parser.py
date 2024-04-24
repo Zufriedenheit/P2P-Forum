@@ -18,12 +18,22 @@ def extract_postbody(my_page, link):
         my_page.goto(post_url)
         soup = BeautifulSoup(my_page.content(), 'html.parser')
         post_link = soup.find_all('a', {'name': post_id})
+        author = post_link[0].find_next('b')
         if post_link:
             post_td = post_link[0].find_next('td')
             while post_td:
                 if post_td.find(class_='postbody'):
                     post_td.find("tr").decompose()
                     post_td.find("tr").decompose()
+                    # Wrap the text inside each "quote" element with the <i> tag
+                    quote_elements = post_td.find_all(class_='quote')
+                    for quote in quote_elements:
+                        new_tag = soup.new_tag('i')
+                        for content in quote.contents:
+                            new_tag.append(content)
+                        quote.clear()
+                        quote.append(new_tag)
+                    post_td.insert(0, author)
                     postbody = str(post_td)
                     #Remove signature from end of post
                     last_index = postbody.rfind('_________________')
