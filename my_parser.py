@@ -23,15 +23,17 @@ def extract_postbody(my_page, link):
             while post_td:
                 if post_td.find(class_='postbody'):
                     post_td.find("tr").decompose()
-                    return "<![CDATA[" + str(post_td) + "]]>"
+                    post_td.find("tr").decompose()
+                    postbody = str(post_td)
+                    #Remove signature from end of post
+                    last_index = postbody.rfind('_________________')
+                    if last_index != -1:
+                        postbody = postbody[:last_index]
+                        return "<![CDATA[" + postbody + "]]>"
+                    return "<![CDATA[" + postbody + "]]>"
                 post_td = post_td.find_next('td')
-            # #Remove signature from end of post
-            # last_index = postbody.rfind('_________________')
-            # if last_index != -1:
-            #     postbody = postbody[:last_index]
             # #Reduce multiple line breaks to single line breaks
             # postbody = re.sub(r'\n{2,}', '\n', postbody)
-            # return "<![CDATA[" + postbody + "]]>"
     return "Postbody not found"
 
 def generate_new_feed_xml(feed):
