@@ -19,21 +19,18 @@ def extract_postbody(my_page, link):
         soup = BeautifulSoup(my_page.content(), 'html.parser')
         post_link = soup.find_all('a', {'name': post_id})
         if post_link:
-            postbody_element = post_link[0].find_next(class_='postbody')
-            if postbody_element.get_text():
-                postbody = postbody_element.get_text()
-            else:
-                next_postbody_element = postbody_element.find_next(class_='postbody')
-                heading_quotetable_before_postbody_element = next_postbody_element.find_previous('span', class_='genmed').get_text().strip()
-                quote_tabledata_before_postbody_element = next_postbody_element.find_previous('td', class_='quote').get_text().strip()
-                postbody = "<b>" + heading_quotetable_before_postbody_element + "</b><br>\n" + "<i>" + quote_tabledata_before_postbody_element + "</i><br>\n" + next_postbody_element.get_text().strip()
-            #Remove signature from end of post
-            last_index = postbody.rfind('_________________')
-            if last_index != -1:
-                postbody = postbody[:last_index]
-            #Reduce multiple line breaks to single line breaks
-            postbody = re.sub(r'\n{2,}', '\n', postbody)
-            return "<![CDATA[" + postbody + "]]>"
+            post_td = post_link[0].find_next('td')
+            while post_td:
+                if post_td.find(class_='postbody'):
+                    return "<![CDATA[" + str(post_td) + "]]>"
+                post_td = post_td.find_next('td')
+            # #Remove signature from end of post
+            # last_index = postbody.rfind('_________________')
+            # if last_index != -1:
+            #     postbody = postbody[:last_index]
+            # #Reduce multiple line breaks to single line breaks
+            # postbody = re.sub(r'\n{2,}', '\n', postbody)
+            # return "<![CDATA[" + postbody + "]]>"
     return "Postbody not found"
 
 def generate_new_feed_xml(feed):
