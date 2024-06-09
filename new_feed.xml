@@ -5,6 +5,40 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: API tot? (Bondora) @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Lendyzer</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">nee, mausetot
+<br/>
+<br/>
+auf der Webseite kann ich meine zum Verkauf stehenden Loans nicht löschen. Click auf Delete sieht erst aus wie immer, nach Refresh der Seite steht Loan wieder, wie vorher, zum Verkauf.
+<br/>
+Webseite SecondaryMarket mit Filter ShowMyItems = true, werden nur Loans angezeigt, die ich heute in den Verkauf gestellt habe, nicht alle wie in Investments.LoansOnSale angezeigt.
+<br/>
+<br/>
+Über Api
+<br/>
+api/v1/secondarymarket zeigt mir nur die Loans an, die heute zum Verkauf gestellt wurden.
+<br/>
+api/v1/secondarymarket/sell   returned Conflict: Loan already on sale. 
+<br/>
+<br/>
+Faktisch kann ich nicht über meine Loans verfügen!!
+<br/>
+<br/>
+Settings -&gt; Secondary Market agreement accepted is auch ok. Benutze Api seit 2017, habe also schon etwas Erfahrung, Probleme steigen, der Enthusiasmus und die Gewinne sinken
+<br/>
+<br/>
+Hat noch jemand gleiche Probleme, bevor ich den Support kontaktiere?</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,179925.html#179925</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,179925.html#179925</guid>
+<pubDate>Sun, 09 Jun 2024 22:19:05 +0200</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Estateguru Preisliste - Neue Gebühren ab 1.6.2024 #estateguru @Estate_Guru #p2plending</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -57,7 +91,7 @@ Da scheint wohl ein gewisses Vertrauen in den Inkassoprozess zu herrschen.</span
 <pubDate>Sun, 09 Jun 2024 09:21:53 +0200</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Estateguru Preisliste - Neue Gebühren ab 1.6.2024 #estateguru @Estate_Guru #p2plending  @49186</title>
+<title>P2P Kredite Forum:Re: Estateguru Preisliste - Neue Gebühren ab 1.6.2024 #estateguru @Estate_Guru #p2plending</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>LostCause</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -234,46 +268,6 @@ Mintos Team</i></td> </tr></tbody></table><span class="postbody"><br/>]]></descr
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,179911.html#179911</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,179911.html#179911</guid>
 <pubDate>Fri, 07 Jun 2024 15:53:14 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Mintos bis zu 200 EUR Neukundenbonus (bis 15.07) #mintos @Mintos #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Bei <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> gibt es einen Sommer Bonus für Neukundenanmeldungen bis 15.07. Dazu muss der Anleger sich über diesen <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> Link anmelden
-<br/>
-Einfach auf den Link klicken dann gibt es das was unten steht stattdessen auf der webseite in deutsch
-<br/>
-<br/>
-Mintos is excited to announce a special bonus campaign launching today. Investors that are new to <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> can turbocharge their returns and receive up to €200 bonus when investing with <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> by using the code “SUMMER24”. This is a fantastic opportunity for you to earn extra rewards by promoting <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> to your audience.
-<br/>
-<br/>
-Detail:
-<br/>
-<br/>
-    Bonuses are paid out based on a tiered scheme of investment amounts starting from 250€. Investors can earn up to a €200 bonus. The investor must be new to <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a>, registration date as of today.
-<br/>
-    The bonus campaign ends on 15th July at midnight. Investments made until this date count towards the bonus. The bonus will be paid out on 31 July 2024.
-<br/>
-  Investments into <a class="postlink" href="https://www.p2p-kredite.com/mintos" target="_blank">Mintos*</a> Smart Cash are excluded from the bonus.
-<br/>
-<br/>
-Mintos is perfect for investors who want to spend less time on investing but still maximize their returns. Platform offers a diverse range of assets, including loans, bonds, ETFs, and most recently, real estate.
-<br/>
-<br/>
-Your investment €250 Your bonus €10
-<br/>
-Your investment €500 Your bonus €25
-<br/>
-Your investment €1000 Your bonus €50
-<br/>
-Your investment €5000 Your bonus €100
-<br/>
-Your investment €10 000 Your bonus €200<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,179910.html#179910</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,179910.html#179910</guid>
-<pubDate>Fri, 07 Jun 2024 14:45:34 +0200</pubDate>
 </item>
 </channel>
 </rss>
