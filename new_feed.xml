@@ -5,6 +5,85 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: Kernkraftdiskussion</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>ILT</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Schaut euch im Link für heute 06.11.2024 14 Uhr an was eine Dunkelflaute bedeutet, wie abhängig wir damit vom Hochfahren von Kohle- und Gaskraftwerken und massiven Stromimporten aus dem Ausland sind. Hätten wir das nicht, gäbe es heute einen Blackout. Auf Solar und Wind ist daher kein Verlass.
+<br/>
+<br/>
+<a href="https://app.electricitymaps.com/zone/DE" target="_blank">https://app.electricitymaps.com/zone/DE</a></span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181436.html#181436</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181436.html#181436</guid>
+<pubDate>Wed, 06 Nov 2024 17:46:41 +0100</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Re: Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Poweramd</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Ich hab mal chatgpt gefragt, kannst du damit was anfangen?
+<br/>
+<br/>
+</span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>Zitat:</b></span></td> </tr> <tr> <td class="quote"><i>
+
+Es klingt, als ob dein Webhook-System vorübergehend blockiert wird, weil zu viele Anfragen fehlschlagen. Die Fehlermeldung „TooManyFailingRequests“ deutet darauf hin, dass der Service, der die Webhooks sendet, eine Grenze für fehlerhafte Anfragen hat und diese erreicht wurde. Daher wird der Webhook blockiert.
+
+
+Hier sind ein paar Ansätze zur Fehlerbehebung:
+
+
+1. **Logging der Anfragen und Antworten:** Stelle sicher, dass du alle eingehenden Anfragen und die von deinem Server gesendeten Antworten protokollierst. So kannst du nachvollziehen, welche Anfragen fehlschlagen und möglicherweise die Blockierung auslösen.
+
+
+2. **Rate Limiting und Zeitüberschreitungen prüfen:** Der Server, der die Webhooks empfängt, könnte Anfragen abbrechen, wenn sie zu lange dauern oder ein Rate-Limit überschritten wird. Überprüfe, ob deine Antwortzeiten konstant sind und ob du möglicherweise zu viele Anfragen in kurzer Zeit erhältst.
+
+
+3. **Fehleranalyse der Anfragen:** Wenn möglich, prüfe die Art der fehlschlagenden Anfragen. Es könnte sein, dass bestimmte Anfragen oder Payloads die Fehler verursachen. Möglicherweise gibt es Payloads, die unerwartete Daten enthalten und zu Fehlern in deinem System führen.
+
+
+4. **Überprüfung der Error-Handling-Mechanismen:** Achte darauf, dass dein Endpoint auf alle möglichen Fehlerszenarien robust reagiert und z. B. bei Validierungsfehlern oder ungültigen Daten eine passende Fehlermeldung zurückgibt.
+
+
+5. **Wiederholungsmechanismen:** Viele Webhook-Anbieter senden die Anfrage mehrfach, wenn der Endpoint eine fehlerhafte Antwort liefert. Stelle sicher, dass dein Endpoint so konzipiert ist, dass er Wiederholungen effizient handhabt und keine weiteren Fehler erzeugt.
+
+
+6. **Monitoring und Alerting:** Richte ein Monitoring für deinen Endpoint ein, das dich benachrichtigt, sobald bestimmte Schwellenwerte erreicht sind oder bestimmte Fehler auftreten. So kannst du schneller reagieren, bevor die Blockierung greift.
+
+
+Falls das Problem weiterhin besteht, könnte es auch sinnvoll sein, dich mit dem Anbieter in Verbindung zu setzen, der die Webhooks versendet, um genauere Details zu den fehlerhaften Anfragen zu erhalten.
+
+</i></td> </tr></tbody></table><span class="postbody"></span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181435.html#181435</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181435.html#181435</guid>
+<pubDate>Wed, 06 Nov 2024 17:24:42 +0100</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Alex42</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Ich habe einen Webhook eingerichtet, der mehrere Stunden lang einwandfrei funktioniert: Bekommt requests, kauft Kredite etc.
+<br/>
+Nach einer Weile (1 bis 4 Stunden) erhält mein Endpoint jedoch keine Anfragen mehr. In der Webhook-Konfiguration sehe ich die Meldung: <span style="font-style: italic">Blocked: 11/6/2024 TooManyFailingRequests.</span>
+<br/>
+Beim Klicken auf 'send test' erhalte ich die Rückmeldung <span style="font-style: italic">POST successful. HTTP StatusCode: 200</span>, und danach funktioniert es wieder – bis das Problem erneut auftritt.
+<br/>
+Hat jemand vielleicht eine Idee?</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181434.html#181434</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181434.html#181434</guid>
+<pubDate>Wed, 06 Nov 2024 16:02:21 +0100</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:#kredite Re: Investitionsrisiko Balkan ?</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>GeldRegiertDieWelt</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -74,7 +153,7 @@ Man beachte auch die relativ hohen Kreditportfolios in diesen Ländern von einig
 <pubDate>Wed, 06 Nov 2024 10:17:36 +0100</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus @49186</title>
+<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -124,7 +203,7 @@ You can see the deducted tax amounts on the Account Statement page and the Dashb
 <pubDate>Tue, 05 Nov 2024 15:43:12 +0100</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:#kredite Statistik Neukreditvolumen Oktober 2024 @blicklog</title>
+<title>P2P Kredite Forum:#kredite Statistik Neukreditvolumen Oktober 2024</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -211,51 +290,6 @@ Boddenfan</span><span class="gensmall"></span></td>
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181420.html#181420</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181420.html#181420</guid>
 <pubDate>Sun, 03 Nov 2024 15:40:23 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus</title>
-<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>njal</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Ja, darum geht es ja, die "Beweise" wurden nicht anerkannt. Die Firmen, für die Geld eingesammelt wurde, gab es damals zumindest auf dem Papier. 
-<br/>
-<br/>
-Ich sage auch nicht, dass die Zeugen eingeschüchtert wurden und zu keiner Aussage gegenüber der Staatsanwaltschaft bereit waren. Sind sicher nur Behauptungen.
-<br/>
-<br/>
-Aber das System dahinter sieht nicht nach Unfähigkeit aus, sondern so, als wüsste da jemand ganz genau, was er tut.</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181419.html#181419</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181419.html#181419</guid>
-<pubDate>Sun, 03 Nov 2024 14:55:45 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Mikefamex</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Ist bei <a class="postlink" href="https://www.p2p-kredite.com/bulkestatef" target="_blank">Bulkestate*</a> ähnlich, die Straftat Betrug musst du erst mal beweisen. Unfähigkeit ist nicht strafbar.</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181418.html#181418</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181418.html#181418</guid>
-<pubDate>Sun, 03 Nov 2024 11:44:04 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Mintos Marktlage, Zinsniveau und Rendite (Mintos) #mintos @Mintos #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Daniel90</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Midinerito aus Mexico ist auch und bietet 12% an</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181417.html#181417</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181417.html#181417</guid>
-<pubDate>Sun, 03 Nov 2024 09:50:13 +0100</pubDate>
 </item>
 </channel>
 </rss>
