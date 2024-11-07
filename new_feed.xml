@@ -5,6 +5,73 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Alex42</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>Zitat:</b></span></td> </tr> <tr> <td class="quote"><i>
+
+Hatte ich auch, allerdings nur beim Zweitmarkt. Ich habe den Fehler nie gefunden. Es könnte sein, dass irgendwelche Bots hunderte von Kredite auf einmal reinstellen und es dadurch crasht. Ich hatte ein Zeitlang genau diesen Button gescriptet, dass ging dann aber auch nicht mehr weil die Anmeldung ablief. Dann habe ich aufgegeben.
+
+
+Am Erstmarkt hatte ich das praktisch nie.</i></td> </tr></tbody></table><span class="postbody">
+<br/>
+<br/>
+Danke! Es ist ein sehr wertvoller Hinweis, ich hatte einen Webhook der sowohl Erst- als auch Zweitmarkt bedient hat. Jetzt hat jeder Markt einen eigenen Webhook, mal schauen welche länger lebt <img alt="Smile" border="0" src="images/smiles/icon_smile.gif"/>. Werde später berichten.</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181440.html#181440</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181440.html#181440</guid>
+<pubDate>Wed, 06 Nov 2024 21:41:28 +0100</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Re: Kernkraftdiskussion</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Wusste ich, dass das kommt. 
+<br/>
+<br/>
+Naja, der Merz wirds richten, ganz bestimmt.
+<br/>
+<br/>
+Ansonsten hast du all die Tage vergessen, wo das Ausland von uns abhing.
+<br/>
+<br/>
+Korrekt ist allerdings, heute war der Strom am Spitmarkt extrem teuer. Da hatten sich einige wohl verspekuliert.
+<br/>
+<br/>
+Den Sinn von einem Verbundnetz hast du offensichtlich noch nicht ganz durchschaut.<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181439.html#181439</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181439.html#181439</guid>
+<pubDate>Wed, 06 Nov 2024 21:18:01 +0100</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Re: Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>Alex42 hat Folgendes geschrieben:</b></span></td> </tr> <tr> <td class="quote"><i>Ich habe einen Webhook eingerichtet, der mehrere Stunden lang einwandfrei funktioniert: Bekommt requests, kauft Kredite etc.
+
+Nach einer Weile (1 bis 4 Stunden) erhält mein Endpoint jedoch keine Anfragen mehr. In der Webhook-Konfiguration sehe ich die Meldung: 
+
+Beim Klicken auf 'send test' erhalte ich die Rückmeldung , und danach funktioniert es wieder – bis das Problem erneut auftritt.
+
+Hat jemand vielleicht eine Idee?</i></td> </tr></tbody></table><span class="postbody">
+<br/>
+<br/>
+Hatte ich auch, allerdings nur beim Zweitmarkt. Ich habe den Fehler nie gefunden. Es könnte sein, dass irgendwelche Bots hunderte von Kredite auf einmal reinstellen und es dadurch crasht. Ich hatte ein Zeitlang genau diesen Button gescriptet, dass ging dann aber auch nicht mehr weil die Anmeldung ablief. Dann habe ich aufgegeben.
+<br/>
+<br/>
+Am Erstmarkt hatte ich das praktisch nie.<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181438.html#181438</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181438.html#181438</guid>
+<pubDate>Wed, 06 Nov 2024 21:13:49 +0100</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Kernkraftdiskussion</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>grizu</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -229,7 +296,7 @@ You can see the deducted tax amounts on the Account Statement page and the Dashb
 <pubDate>Tue, 05 Nov 2024 14:39:11 +0100</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Swaper Erfahrungen (Lettland)</title>
+<title>P2P Kredite Forum:Re: Swaper Erfahrungen (Lettland) @49186</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Poweramd</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -240,56 +307,6 @@ You can see the deducted tax amounts on the Account Statement page and the Dashb
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181424.html#181424</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181424.html#181424</guid>
 <pubDate>Mon, 04 Nov 2024 14:43:30 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Swaper Erfahrungen (Lettland)</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Boddenfan</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Hallo in die Runde!
-<br/>
-<br/>
-Seit neuestem gibt es in der Buchungsübersicht (Account Statement) eine neue Rubrik von Buchungen namens "domain.deducted-taxes".
-<br/>
-<br/>
-Weiß jemand, was es damit auf sich hat? Dass nun auf die Erträge von <a class="postlink" href="https://www.p2p-kredite.com/swaperf" target="_blank">Swaper*</a> Steuern abgezogen werden, wäre mir neu.
-<br/>
-<br/>
-Viele Grüße
-<br/>
-Boddenfan</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181423.html#181423</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181423.html#181423</guid>
-<pubDate>Mon, 04 Nov 2024 13:14:29 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>njal</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Ich dachte, wir reden von Herrn Timma, wüsste nicht, was der mit <a class="postlink" href="https://www.p2p-kredite.com/bulkestatef" target="_blank">Bulkestate*</a> zu tun hat.</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181422.html#181422</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181422.html#181422</guid>
-<pubDate>Mon, 04 Nov 2024 09:29:23 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Ventus Energy Erfahrungen (Kraftwerke Lettland, 1% Bonus</title>
-<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Mikefamex</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">njal, meinst du <a class="postlink" href="https://www.p2p-kredite.com/crowdestorf" target="_blank">Crowdestor*</a> oder Bulkestate?</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181421.html#181421</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181421.html#181421</guid>
-<pubDate>Mon, 04 Nov 2024 01:37:54 +0100</pubDate>
 </item>
 </channel>
 </rss>
