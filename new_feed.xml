@@ -5,6 +5,19 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:"Probleme" beim Einrichten eines neuen Bankkontos #estateguru @Estate_Guru #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Holzauge</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Ich habe bisher 4x versucht eine neues Bankkonto einzurichten um mein Guthaben teilweise abzuziehen. Mein altes Konto ist nicht mehr existent (Auflösung Fidor Bank). Ich versuchte Pass, Personalausweis, sowie zwei Girokonten u.a. Consors (BNP Paribas). Alle Dokumente aktuell/gültig. KYC wie üblich via Mobile App. Prozess 4x erfolgreich abgeschlossen. Die Konten sind angelegt &amp; ausgegraut und mit "nicht verifziert" gekennzeichnet keine weiteren Angaben. Ich weis nicht, was ich noch machen soll, der support antwortet nicht. Und mein Guthaben verringert sich monatlich um 50€.</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181449.html#181449</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181449.html#181449</guid>
+<pubDate>Fri, 08 Nov 2024 12:48:13 +0100</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Kredite Litauen (Bondora) @BondoraCapital #p2plending</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>scrooge</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -311,25 +324,6 @@ Falls das Problem weiterhin besteht, könnte es auch sinnvoll sein, dich mit dem
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181435.html#181435</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181435.html#181435</guid>
 <pubDate>Wed, 06 Nov 2024 17:24:42 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Alex42</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Ich habe einen Webhook eingerichtet, der mehrere Stunden lang einwandfrei funktioniert: Bekommt requests, kauft Kredite etc.
-<br/>
-Nach einer Weile (1 bis 4 Stunden) erhält mein Endpoint jedoch keine Anfragen mehr. In der Webhook-Konfiguration sehe ich die Meldung: <span style="font-style: italic">Blocked: 11/6/2024 TooManyFailingRequests.</span>
-<br/>
-Beim Klicken auf 'send test' erhalte ich die Rückmeldung <span style="font-style: italic">POST successful. HTTP StatusCode: 200</span>, und danach funktioniert es wieder – bis das Problem erneut auftritt.
-<br/>
-Hat jemand vielleicht eine Idee?</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181434.html#181434</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181434.html#181434</guid>
-<pubDate>Wed, 06 Nov 2024 16:02:21 +0100</pubDate>
 </item>
 </channel>
 </rss>
