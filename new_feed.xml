@@ -5,6 +5,29 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: Kernkraftdiskussion</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>grizu</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Hauptsache nicht auf die Argumente eingehen, sondern wieder was neues behaupten.
+<br/>
+<br/>
+Als ich jung war, wurde auch das Ende der deutschen Industrie vorhergesagt. Damals waren es die angeblich zu hohen Lohnnebenkosten. 
+<br/>
+<br/>
+Sie beklagen doch immer, wenn sie bezehlen müssen, und sein es Steuern, Abgaben, Mindestlohn, Energie,... Aber irgendwie ist es scheinbar doch nicht so schlecht, sonst wären sie nicht immer noch hier.
+<br/>
+So hoch sind die Strompreise für die Industrie übrigens nicht. Informier dich mal was sie wirklich bezahlen.
+<br/>
+Die Energie, die teuer geworden ist, und das war gerade für die chemische Industrie ein sehr großes Problem, ist das Erdgas. Das liegt aber wohl eher anb Putin und seinem Krieg. Aber du findest da sicher auch nach einen Grund, dass den Grünen anzuhängen.</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181453.html#181453</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181453.html#181453</guid>
+<pubDate>Fri, 08 Nov 2024 20:43:05 +0100</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: "Probleme" beim Einrichten eines neuen Bankkon #estateguru @Estate_Guru #p2plending</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Mikefamex</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -272,29 +295,6 @@ Den Sinn von einem Verbundnetz hast du offensichtlich noch nicht ganz durchschau
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181439.html#181439</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181439.html#181439</guid>
 <pubDate>Wed, 06 Nov 2024 21:18:01 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Ein Problem mit API: Sporadisches TooManyFailingRequests @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>Alex42 hat Folgendes geschrieben:</b></span></td> </tr> <tr> <td class="quote"><i>Ich habe einen Webhook eingerichtet, der mehrere Stunden lang einwandfrei funktioniert: Bekommt requests, kauft Kredite etc.
-
-Nach einer Weile (1 bis 4 Stunden) erhält mein Endpoint jedoch keine Anfragen mehr. In der Webhook-Konfiguration sehe ich die Meldung: 
-
-Beim Klicken auf 'send test' erhalte ich die Rückmeldung , und danach funktioniert es wieder – bis das Problem erneut auftritt.
-
-Hat jemand vielleicht eine Idee?</i></td> </tr></tbody></table><span class="postbody">
-<br/>
-<br/>
-Hatte ich auch, allerdings nur beim Zweitmarkt. Ich habe den Fehler nie gefunden. Es könnte sein, dass irgendwelche Bots hunderte von Kredite auf einmal reinstellen und es dadurch crasht. Ich hatte ein Zeitlang genau diesen Button gescriptet, dass ging dann aber auch nicht mehr weil die Anmeldung ablief. Dann habe ich aufgegeben.
-<br/>
-<br/>
-Am Erstmarkt hatte ich das praktisch nie.<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181438.html#181438</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181438.html#181438</guid>
-<pubDate>Wed, 06 Nov 2024 21:13:49 +0100</pubDate>
 </item>
 </channel>
 </rss>
