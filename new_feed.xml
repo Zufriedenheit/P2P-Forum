@@ -5,6 +5,60 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: Kommt der Speicher in die Gänge?</title>
+<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>TTom hat Folgendes geschrieben:</b></span></td> </tr> <tr> <td class="quote"><i> Aktuell bekommt man für eine neue Solaranlage dagegen nur 6,95 ct/kWh Einspeisevergütung.
+
+</i></td> </tr></tbody></table><span class="postbody">
+<br/>
+<br/>
+Schon mehr durch die ersten 10kWp.
+<br/>
+Ich hab seinen Blog länger verfolgt. Er hat da schon viel dran programmiert und getestet. Mit einmal erstellen war es nicht getan. Und neben seinem großen Speicher hat er auch eine sehr große Anlage.
+<br/>
+Wir also zumindest für EFH nicht wirklich repräsentativ sein.
+<br/>
+Aber cooles Projekt.<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181542.html#181542</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181542.html#181542</guid>
+<pubDate>Thu, 14 Nov 2024 22:53:02 +0100</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Re: Kommt der Speicher in die Gänge?</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>TTom</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody"></span><table align="center" border="0" cellpadding="3" cellspacing="1" width="90%"><tbody><tr> <td><span class="genmed"><b>Claus Lehmann hat Folgendes geschrieben:</b></span></td> </tr> <tr> <td class="quote"><i>PV Direktvermarktung ist selbst unter idealen Voraussetzungen und hohem persönlichem Einsatz nur marginal profitabel. Hier sehr ausführlich empirisch mit Zahlen belegt
+
+
+
+Das lohnt bei allem Idealismus m.E. nicht</i></td> </tr></tbody></table><span class="postbody">
+<br/>
+Seh ich anders:
+<br/>
+<br/>
+In dem Beispiel ist er Summa Sumarum in der Direktvermarktung auf 11,5 ct/kWh gekommen. Aktuell bekommt man für eine neue Solaranlage dagegen nur 6,95 ct/kWh Einspeisevergütung.
+<br/>
+<br/>
+Das ist locker mal 65% mehr!
+<br/>
+<br/>
+Bzgl. persönlicher Einsatz: Man muss ja eigentlich nur mit nem Skript die API seines Wechselrichters ansteuern, wann die Batterie geladen werden soll und wann eingespeist werden soll und sich von EPEX Spot die Preisdaten ziehen bzw. Wetterdaten einbinden.
+<br/>
+<br/>
+Das programmiert man sich einmal und kann es dann über Jahre benutzen.
+<br/>
+<br/>
+Edit: Wobei der 100 kWh Speicher in dem Beispiel nicht ganz günstig gewesen sein wird. Wobei sich das verbessern könnte, sobald man E-Autos als Zwischenspeicher verwenden kann mit CCS-BiDi-Wallboxen. VW kann das ja schon.<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181541.html#181541</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181541.html#181541</guid>
+<pubDate>Thu, 14 Nov 2024 22:00:17 +0100</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Kernkraftdiskussion</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -167,7 +221,7 @@ Ist jedoch auch meine Befürchtung. Eine dritte Verlängerung wäre dann doch se
 <pubDate>Thu, 14 Nov 2024 12:47:59 +0100</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Zahlungsschwierigkeiten bei Reinvest24 (Reinvest24) @Reinvest24 #property #immobilien #estonia #crowdinvesting @blicklog</title>
+<title>P2P Kredite Forum:Re: Zahlungsschwierigkeiten bei Reinvest24 (Reinvest24) @Reinvest24 #property #immobilien #estonia #crowdinvesting</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Snowball</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -205,28 +259,6 @@ bisher nicht angekommen, ich habe den Invest im Portfolio ausgebucht...</span><s
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181528.html#181528</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181528.html#181528</guid>
 <pubDate>Thu, 14 Nov 2024 10:00:15 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Zweitmarkt-Strategie (Bondora) @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Solange man 100% zurückbekommt (ich hatte auch schon weniger), na gut.<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181527.html#181527</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181527.html#181527</guid>
-<pubDate>Thu, 14 Nov 2024 09:55:58 +0100</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Neues Kreditunternehmen Nera Capital (UK) (Mintos) #mintos @Mintos #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Meine Glaskugel sagt mir: das war die letzte Verlängerung<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,181526.html#181526</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,181526.html#181526</guid>
-<pubDate>Thu, 14 Nov 2024 08:50:57 +0100</pubDate>
 </item>
 </channel>
 </rss>
