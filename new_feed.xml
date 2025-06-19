@@ -5,6 +5,78 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Ausfallabhängigkeit @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Aus Fortbildungsgründen habe ich mal mit KI ein maschine-learning Tool in python gegen den letzten verfügbaren Stand der Bondoradaten laufen lassen und anschließend ein paar seinsitivitätsdiagramme geplotten.
+<br/>
+<br/>
+Tainingsgrundlage waren immerhin 70k(FI)-100k(EE) Datensätze mit einer Laufzeit &gt;= 36 Monaten. Aussagekraft ca 70% bei einem Overfitting von &lt;2%.
+<br/>
+<br/>
+Bei den meisten Parametern waren die Kurven sehr flach (meist so um die 40% Ausfallprognose für EE). Nicht mal das Ratin bewegt in EE so viel (in FI schon).
+<br/>
+<br/>
+Auffällig waren
+<br/>
+- Alter: bis 60 je älter desto besser, dann leich schlechter werdend
+<br/>
+- Liabilities totall mit ner Ausfalldelle bei 2k, die Ränder schlecht
+<br/>
+<br/>
+Modellergebnisse genauer:
+<br/>
+Variable Importance: INV_MEAN_MIN_DEPTH:
+<br/>
+    1.                      "LoanDuration"  0.291765 ################
+<br/>
+    2.                          "Interest"  0.289072 ##############
+<br/>
+    3.                               "Age"  0.283787 ############
+<br/>
+    4.                 "HomeOwnershipType"  0.278385 ##########
+<br/>
+    5.                 "CreditScoreEeMini"  0.278348 ##########
+<br/>
+    6.             "ApplicationSignedHour"  0.277108 #########
+<br/>
+    7.                    "MonthlyPayment"  0.273883 ########
+<br/>
+    8.                       "IncomeTotal"  0.272705 #######
+<br/>
+    9.                 "MonthlyPaymentDay"  0.271514 #######
+<br/>
+   10.                  "LiabilitiesTotal"  0.271077 #######
+<br/>
+   11.                            "Amount"  0.269677 ######
+<br/>
+   12.                         "Education"  0.268973 ######
+<br/>
+   13.                  "VerificationType"  0.268958 ######
+<br/>
+   14.                         "free_cash"  0.266080 #####
+<br/>
+   15.                         "dti_ratio"  0.263189 ###
+<br/>
+   16.                            "Gender"  0.263124 ###
+<br/>
+   17. "EmploymentDurationCurrentEmployer"  0.259356 ##
+<br/>
+   18.                            "Rating"  0.253675 
+<br/>
+<br/>
+Optimierte Modell-Performance:
+<br/>
+  - Accuracy: 68.05%
+<br/>
+  - AUC: 0.72<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183442.html#183442</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183442.html#183442</guid>
+<pubDate>Thu, 19 Jun 2025 23:34:28 +0200</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Asterra Erfahrungen (Immobilien Lettland, 6% Cashback)</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -117,7 +189,7 @@ Beim 2. Absatz frage ich mich was in deren Köpfen vorgeht.</span><span class="g
 <pubDate>Tue, 17 Jun 2025 20:17:02 +0200</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:#kredite Re: Börsengehandelte Anleihen von P2P-Anbietern @blicklog</title>
+<title>P2P Kredite Forum:#kredite Re: Börsengehandelte Anleihen von P2P-Anbietern</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Poweramd</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -244,19 +316,6 @@ Bisher alles ok., habe dort nur einen kleinen 4stelligen Betrag, der quasi monot
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183428.html#183428</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183428.html#183428</guid>
 <pubDate>Mon, 16 Jun 2025 12:48:01 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Fundstücke (Bondora) @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Hast du eine Antwort bekommen?
-<br/>
-Bei mir nur Verzögerungstaktiken.<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183427.html#183427</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183427.html#183427</guid>
-<pubDate>Mon, 16 Jun 2025 09:51:33 +0200</pubDate>
 </item>
 </channel>
 </rss>
