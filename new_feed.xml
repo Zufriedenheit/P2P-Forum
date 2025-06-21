@@ -5,6 +5,42 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:API stirbt @BondoraCapital #p2plending  @49186</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Gerade gefunden:
+<br/>
+Version 1.0.4.0 (2025-06-16)
+<br/>
+Removed
+<br/>
+<br/>
+    We are deprecating the following webhook events, due to performance optimisations.
+<br/>
+    This feature has seen low usage and impacts less than 0.01% of API calls.
+<br/>
+    Please adjust your integration accordingly. Other webhook events remain unaffected.
+<br/>
+        secondmarket.published
+<br/>
+        secondmarket.updated
+<br/>
+        secondmarket.bought
+<br/>
+        secondmarket.canceled
+<br/>
+        secondmarket.sold
+<br/>
+-----------
+<br/>
+Das scheint aber nicht die einzuge Einschränkung zu sein.<br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183449.html#183449</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183449.html#183449</guid>
+<pubDate>Sat, 21 Jun 2025 16:29:58 +0200</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: LinkedFinance Erfahrungen (Irland)</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -250,7 +286,7 @@ Und der Hintergrund für die debt servicing cost würde mich auch interessieren.
 <pubDate>Wed, 18 Jun 2025 07:26:20 +0200</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Fundstücke (Bondora) @BondoraCapital #p2plending</title>
+<title>P2P Kredite Forum:Re: Fundstücke (Bondora) @BondoraCapital #p2plending  @49186</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Wursty</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -307,19 +343,6 @@ Beim 2. Absatz frage ich mich was in deren Köpfen vorgeht.</span><span class="g
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183435.html#183435</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183435.html#183435</guid>
 <pubDate>Tue, 17 Jun 2025 18:59:14 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: Bulkestate Erfahrungen (Lettland)</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Mikefamex</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Die meisten Anleger haben nur drei- oder niedrige Summen bei Bulkestate. Zu wenig zum klagen.</span><span class="gensmall"></span></td>
-</tr>
-</tbody></table></td>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183434.html#183434</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183434.html#183434</guid>
-<pubDate>Tue, 17 Jun 2025 12:53:00 +0200</pubDate>
 </item>
 </channel>
 </rss>
