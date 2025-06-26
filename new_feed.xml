@@ -5,6 +5,25 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: Inrento Erfahrungen (Immobilien Litauen, 20 EUR Bonus)</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Lendlord</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Der Run auf die Kredite von <a class="postlink" href="https://www.p2p-kredite.com/inrentof" target="_blank">Inrento*</a> ist schon abartig  <img alt="Shocked" border="0" src="images/smiles/icon_eek.gif"/> . Gestern wurde um 17:13 Uhr ein Projekt aus Polen veröffentlicht mit einem sehr großen Umfang von 1,4 Mio. €. 
+<br/>
+<br/>
+Eine halbe Stunde später wurde dann in Telegram gepostet, dass der Kredit schon weitgehend voll investiert sei.
+<br/>
+<br/>
+Ich selber versuchte drei Stunden nach Ankündigung noch zu investieren und war vieeel zu spät dran.</span><span class="gensmall"></span></td>
+</tr>
+</tbody></table></td>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183457.html#183457</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183457.html#183457</guid>
+<pubDate>Thu, 26 Jun 2025 08:04:49 +0200</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Robocash Erfahrungen (Robocash) #robocash @Robocash1 #p2plending</title>
 <description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Aranis</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -272,78 +291,6 @@ bei mir sind jetzt alle AvaFin Loans zurück. Ich habe (leider) keine mehr im Po
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183443.html#183443</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183443.html#183443</guid>
 <pubDate>Fri, 20 Jun 2025 11:34:22 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Ausfallabhängigkeit @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Aus Fortbildungsgründen habe ich mal mit KI ein maschine-learning Tool in python gegen den letzten verfügbaren Stand der Bondoradaten laufen lassen und anschließend ein paar seinsitivitätsdiagramme geplotten.
-<br/>
-<br/>
-Tainingsgrundlage waren immerhin 70k(FI)-100k(EE) Datensätze mit einer Laufzeit &gt;= 36 Monaten. Aussagekraft ca 70% bei einem Overfitting von &lt;2%.
-<br/>
-<br/>
-Bei den meisten Parametern waren die Kurven sehr flach (meist so um die 40% Ausfallprognose für EE). Nicht mal das Ratin bewegt in EE so viel (in FI schon).
-<br/>
-<br/>
-Auffällig waren
-<br/>
-- Alter: bis 60 je älter desto besser, dann leich schlechter werdend
-<br/>
-- Liabilities totall mit ner Ausfalldelle bei 2k, die Ränder schlecht
-<br/>
-<br/>
-Modellergebnisse genauer:
-<br/>
-Variable Importance: INV_MEAN_MIN_DEPTH:
-<br/>
-    1.                      "LoanDuration"  0.291765 ################
-<br/>
-    2.                          "Interest"  0.289072 ##############
-<br/>
-    3.                               "Age"  0.283787 ############
-<br/>
-    4.                 "HomeOwnershipType"  0.278385 ##########
-<br/>
-    5.                 "CreditScoreEeMini"  0.278348 ##########
-<br/>
-    6.             "ApplicationSignedHour"  0.277108 #########
-<br/>
-    7.                    "MonthlyPayment"  0.273883 ########
-<br/>
-    8.                       "IncomeTotal"  0.272705 #######
-<br/>
-    9.                 "MonthlyPaymentDay"  0.271514 #######
-<br/>
-   10.                  "LiabilitiesTotal"  0.271077 #######
-<br/>
-   11.                            "Amount"  0.269677 ######
-<br/>
-   12.                         "Education"  0.268973 ######
-<br/>
-   13.                  "VerificationType"  0.268958 ######
-<br/>
-   14.                         "free_cash"  0.266080 #####
-<br/>
-   15.                         "dti_ratio"  0.263189 ###
-<br/>
-   16.                            "Gender"  0.263124 ###
-<br/>
-   17. "EmploymentDurationCurrentEmployer"  0.259356 ##
-<br/>
-   18.                            "Rating"  0.253675 
-<br/>
-<br/>
-Optimierte Modell-Performance:
-<br/>
-  - Accuracy: 68.05%
-<br/>
-  - AUC: 0.72<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183442.html#183442</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183442.html#183442</guid>
-<pubDate>Thu, 19 Jun 2025 23:34:28 +0200</pubDate>
 </item>
 </channel>
 </rss>
