@@ -5,6 +5,28 @@
 <link>https://www.p2p-kredite.com/diskussion/</link>
 <description>All Posts in the P2P Forum</description>
 <item>
+<title>P2P Kredite Forum:Re: API stirbt (Bondora) @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Gut für Dich. Dann Greif mal so viel wie möglich ab.  <img alt="Very Happy" border="0" src="images/smiles/icon_biggrin.gif"/><br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183464.html#183464</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183464.html#183464</guid>
+<pubDate>Fri, 27 Jun 2025 10:11:41 +0200</pubDate>
+</item>
+<item>
+<title>P2P Kredite Forum:Re: API stirbt (Bondora) @BondoraCapital #p2plending</title>
+<description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+
+<tr>
+<td colspan="2"><span class="postbody">Bondora schraubt mal wieder am System rum, ohne die Anwender zu informieren. Der access-Token für Gebote läuft nun nach 1h ab. Das haben noch nicht so viele mitbekommen, dann auf einmal sind Erstmarktgebote erstaunlich erfolgreich <img alt="Smile" border="0" src="images/smiles/icon_smile.gif"/><br/>]]></description>
+<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183463.html#183463</link>
+<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183463.html#183463</guid>
+<pubDate>Fri, 27 Jun 2025 09:29:45 +0200</pubDate>
+</item>
+<item>
 <title>P2P Kredite Forum:Re: Iuvo Group Erfahrungen (Estland, Bulgarien) (Iuvo Group) #iuvo @GroupIuvo #p2plending</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>miwi13</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
@@ -235,7 +257,7 @@ Die Zahlen aus dem Steuerbericht gibst du in deiner <a class="postlink" href="ht
 <pubDate>Mon, 23 Jun 2025 09:38:53 +0200</pubDate>
 </item>
 <item>
-<title>P2P Kredite Forum:Re: Steuer bei Bondora (Bondora) @BondoraCapital #p2plending</title>
+<title>P2P Kredite Forum:Re: Steuer bei Bondora (Bondora) @BondoraCapital #p2plending  @bandit55555</title>
 <description><![CDATA[<td class="row2" height="28" valign="top" width="100%"><b>uzf</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody>
 
@@ -274,55 +296,6 @@ Der Zinssatz ist eine ganz wichtige Größe. Der wird ja aber auch von <a class=
 <link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183450.html#183450</link>
 <guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183450.html#183450</guid>
 <pubDate>Sun, 22 Jun 2025 11:20:22 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:API stirbt @BondoraCapital #p2plending</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Oktaeder</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Gerade gefunden:
-<br/>
-Version 1.0.4.0 (2025-06-16)
-<br/>
-Removed
-<br/>
-<br/>
-    We are deprecating the following webhook events, due to performance optimisations.
-<br/>
-    This feature has seen low usage and impacts less than 0.01% of API calls.
-<br/>
-    Please adjust your integration accordingly. Other webhook events remain unaffected.
-<br/>
-        secondmarket.published
-<br/>
-        secondmarket.updated
-<br/>
-        secondmarket.bought
-<br/>
-        secondmarket.canceled
-<br/>
-        secondmarket.sold
-<br/>
------------
-<br/>
-Das scheint aber nicht die einzuge Einschränkung zu sein.<br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183449.html#183449</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183449.html#183449</guid>
-<pubDate>Sat, 21 Jun 2025 16:29:58 +0200</pubDate>
-</item>
-<item>
-<title>P2P Kredite Forum:Re: LinkedFinance Erfahrungen (Irland)</title>
-<description><![CDATA[<td class="row1" height="28" valign="top" width="100%"><b>Claus Lehmann</b><table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-
-<tr>
-<td colspan="2"><span class="postbody">Alte News
-<br/>
-<a href="https://www.siliconrepublic.com/start-ups/linked-finance-smes-lending" target="_blank">https://www.siliconrepublic.com/start-ups/linked-finance-smes-lending</a><br/>]]></description>
-<link>http://www.p2p-kredite.com/diskussion/viewtopic,p,183448.html#183448</link>
-<guid>http://www.p2p-kredite.com/diskussion/viewtopic,p,183448.html#183448</guid>
-<pubDate>Sat, 21 Jun 2025 09:25:31 +0200</pubDate>
 </item>
 </channel>
 </rss>
